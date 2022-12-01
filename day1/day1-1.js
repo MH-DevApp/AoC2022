@@ -14,7 +14,7 @@ datas.forEach((inputs) => {
   inputs.forEach((input) => {
     somme += input;
   });
-  max = max < somme && (somme !== 68802 && somme !== 68708) ? somme : max;
+  max = max < somme ? somme : max;
 });
 
 console.log(max);
