@@ -46,7 +46,6 @@ fs
   )
   .forEach((input) => {
     score += getScore(input);
-    console.log(score, input);
   })
 ;
 

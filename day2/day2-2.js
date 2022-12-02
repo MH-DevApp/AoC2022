@@ -62,7 +62,6 @@ fs
   .map((input) => [input[0], input[1] = points[input[1]].replaceTo[input[0]]])
   .forEach((input) => {
     score += getScore(input);
-    console.log(score, input);
   })
 ;
 
