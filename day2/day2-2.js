@@ -59,7 +59,11 @@ fs
   .map((input) => input
     .split(' ')
   )
-  .map((input) => [input[0], input[1] = points[input[1]].replaceTo[input[0]]])
+  .map((input) => [
+      input[0],
+      points[input[1]].replaceTo[input[0]]
+    ]
+  )
   .forEach((input) => {
     score += getScore(input);
   })
